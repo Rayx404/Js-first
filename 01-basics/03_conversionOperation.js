@@ -89,3 +89,41 @@ let booleanGf = Boolean(gf)
 console.log(booleanGf);         // true 
 console.log(typeof booleanGf);  // boolean
 
+
+// ********************************************OPERATION**********************************************************
+
+console.log(2+2)
+console.log(2-2);
+console.log(2*2);
+console.log(2**3);  // 2 ka power 3 = 8
+console.log(2/4);
+console.log(2%3);
+
+
+let marks = 14
+let negmarks = -marks
+console.log(negmarks);
+console.log(typeof negmarks);
+
+let str1 = "hello "
+let str2 = "rayx"
+let str3 = str1 + str2
+console.log(str3)
+
+
+console.log(2 + 3)              // 5 
+console.log("2" + 3)            // 23
+console.log(2 + "3")            // 23
+console.log(1 + "2" + 3)        // 123
+console.log(1 + 2 + "3")        // 33
+console.log("1" + 2 + 3)        // 123
+
+// prefix and postfix
+
+let gameCounter =100
+++gameCounter;
+console.log(gameCounter);
+
+gameCounter++;
+console.log(gameCounter);
+
